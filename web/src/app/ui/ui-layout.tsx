@@ -13,7 +13,8 @@ import {
 import toast, { Toaster } from 'react-hot-toast';
 
 const pages: { label: string; path: string }[] = [
-  { label: 'Account', path: '/account' },
+  //{ label: 'Account', path: '/account' },
+  { label: 'Whirlpool', path: '/whirlpool' },
   { label: 'Clusters', path: '/clusters' },
 ];
 

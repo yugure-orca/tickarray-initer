@@ -35,16 +35,16 @@ export function toWalletAdapterNetwork(
 
 export const defaultClusters: Cluster[] = [
   {
+    name: 'mainnet',
+    endpoint: 'https://rpc-proxy.yugure-crypto.workers.dev/',
+    network: ClusterNetwork.Mainnet,
+  },
+  {
     name: 'devnet',
     endpoint: clusterApiUrl('devnet'),
     network: ClusterNetwork.Devnet,
   },
   { name: 'local', endpoint: 'http://localhost:8899' },
-  {
-    name: 'testnet',
-    endpoint: clusterApiUrl('testnet'),
-    network: ClusterNetwork.Testnet,
-  },
 ];
 
 const clusterAtom = atomWithStorage<Cluster>(
