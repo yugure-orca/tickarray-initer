@@ -36,7 +36,7 @@ export function toWalletAdapterNetwork(
 export const defaultClusters: Cluster[] = [
   {
     name: 'mainnet',
-    endpoint: 'https://rpc-proxy.yugure-crypto.workers.dev/',
+    endpoint: 'https://rpc-proxy-init-tickarray.yugure.dev/',
     network: ClusterNetwork.Mainnet,
   },
   {
