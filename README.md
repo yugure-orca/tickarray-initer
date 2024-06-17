@@ -26,7 +26,7 @@ npm run install
 #### Start the web app
 
 ```
-npm run dev
+yarn run dev
 ```
 
 ## Apps
@@ -40,11 +40,15 @@ This is a React app.
 Start the web app
 
 ```shell
-npm run dev
+yarn run dev
 ```
 
 Build the web app
 
 ```shell
-npm run build
+yarn run build
 ```
+
+- remove docs
+- mv dist/web to docs
+- remove `base` tag from index.html

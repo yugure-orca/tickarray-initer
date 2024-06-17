@@ -7,5 +7,11 @@ module.exports = composePlugins(withNx(), withReact(), (config) => {
   // e.g. `config.plugins.push(new MyPlugin())`
   config.ignoreWarnings = [/Failed to parse source map/];
 
+  config.resolve.fallback = {
+    "crypto": require.resolve("crypto-browserify"),
+    "vm": require.resolve("vm-browserify"),
+    "stream": require.resolve("stream-browserify"),
+  };
+
   return config;
 });
