@@ -51,4 +51,4 @@ yarn run build
 
 - remove docs
 - mv dist/web to docs
-- remove `base` tag from index.html
+- remove `base` tag from docs/index.html
